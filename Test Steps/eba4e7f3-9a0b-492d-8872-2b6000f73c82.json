@@ -1,0 +1,8 @@
+{
+    "steps": [
+        "step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/home/submittedgroups",
+        "step 2: Click on span 'UoTabCount'",
+        "step 3: Click on td",
+        "step 4: Take full page screenshot as checkpoint"
+    ]
+}

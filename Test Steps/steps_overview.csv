@@ -1,0 +1,178 @@
+Flow ID,Name,Description,Test Steps,Flow Priority
+1,Verify Creation and Submission of Umrah Package,"Navigate to the Umrah operators' home and create a package. Select the arrival and departure flight dates, submit the package, and verify the submission in the submitted groups.","step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on button '\u0645\u0648\u0627\u0641\u0642' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 3: Click on input field 'Search ArrivalFlightDate'
+step 4: Click on th
+step 5: Click on td
+step 6: Click on input field 'select-arrival-flight'
+step 7: Click on button '\u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629'
+step 8: Click on input field 'Search DepartureFlightDate'
+step 9: Click on th
+step 10: Click on td  -> Navigate to page 'UmrahOperators/Home/SubmittedGroups'
+step 11: Click on button 'OK'
+step 12: Click on link 'qa-actions'
+step 13: Click on link 'qa-submit-umrah'
+step 14: Click on button 'OK'
+step 15: Click on button 'OK' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 16: Click on span
+step 17: Click on button '\u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629'
+step 18: Click on button '\u0645\u0648\u0627\u0641\u0642' -> Navigate to page 'UmrahOperators/Home/SubmittedGroups'
+step 19: Take full page screenshot as checkpoint",High
+3,Verify Umrah Package Creation from Submitted Groups,Navigate to the submitted groups and submit the Umrah. Verify the creation of the Umrah package.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Home/SubmittedGroups
+step 2: Click on link 'qa-submit-umrah'
+step 3: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 4: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 5: Click on span
+step 6: Click on td  -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 7: Take full page screenshot as checkpoint",High
+2,Verify Umrah Submission Process,Navigate to the submitted groups and submit the Umrah. Verify the submission in the submitted groups.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Home/SubmittedGroups
+step 2: Click on link 'qa-submit-umrah'
+step 3: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 4: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 5: Click on span
+step 6: Click on td
+step 7: Take full page screenshot as checkpoint",High
+4,Verify Umrah Package Creation from Actions Menu,Navigate to the submitted groups and submit the Umrah. Verify the creation of the Umrah package from the actions menu.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Home/SubmittedGroups
+step 2: Click on link 'qa-submit-umrah'
+step 3: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 4: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 5: Click on td
+step 6: Click on link 'qa-actions'
+step 7: Click on link 'qa-submit-umrah'
+step 8: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 9: Click on button '\u0645\u0648\u0627\u0641\u0642' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 10: Take full page screenshot as checkpoint",High
+5,Verify Access to Vinyl Flooring Details,Navigate to the Filiale Hamburg and access the details of vinyl flooring. Verify the access to the vinyl flooring details.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/filiale/hamburg
+step 2: Click on div
+step 3: Click on button
+step 4: Click on link
+step 5: Click on link  -> Navigate to page 'vinylboeden/art/klick-vinyl'
+step 6: Take full page screenshot as checkpoint",High
+6,Verify Access to External Agencies Muatamer List Details,Navigate to the boarding page and access the muatamer list details. Verify the access to the muatamer list details.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/ExternalAgencies/Boarding
+step 2: Click on button 'Close'
+step 3: Click on div
+step 4: Click on link 'qa-menu-groups' -> Navigate to page 'ExternalAgencies/Groups/GetMuatamerListDetails/*'
+step 5: Take full page screenshot as checkpoint",High
+7,Verify Umrah Submission Process from Actions Menu,Navigate to the submitted groups and access the actions menu. Submit the Umrah and verify the submission in the submitted groups.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/home/submittedgroups
+step 2: Click on link 'qa-actions'
+step 3: Click on link 'qa-submit-umrah'
+step 4: Take full page screenshot as checkpoint",High
+8,Verify Access to External Agencies Package View,Navigate to the groups index and access the actions menu. View the package and verify the access to the package view.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/ExternalAgencies/Groups/Index
+step 2: Click on link 'qa-actions'
+step 3: Click on link 'qa-view-package' -> Navigate to page 'ExternalAgencies/Groups/ViewPackage/*'
+step 4: Take full page screenshot as checkpoint",High
+15,Verify Paging on Laminat Farbgebung Mittel Page,Navigate to the Laminat Farbgebung Mittel page and access the paging. Verify the paging on the Laminat Farbgebung Mittel page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/laminat/farbgebung/mittel
+step 2: Click on span  -> Navigate to page 'paging/*'
+step 3: Take full page screenshot as checkpoint",High
+21,Verify Late Exit Mutamers in External Agencies Dashboard,Navigate to the late exit mutamers page in the external agencies dashboard. Click on a button and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/ExternalAgencies/Dashboard/LateExitMutamers
+step 2: Click on button ' \u0627\u0644\u062a\u0635\u0641\u064a\u0629'
+step 3: Take full page screenshot as checkpoint",High
+20,Verify Access to Muatamer List Details,Navigate to the groups details page and access the muatamer list. Verify the access to the muatamer list details.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on list item
+step 3: Take full page screenshot as checkpoint",High
+19,Verify Access to External Agencies Groups Index,Navigate to the groups index and access the details. Verify the access to the groups index.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/ExternalAgencies/Groups/Index
+step 2: Click on td
+step 3: Take full page screenshot as checkpoint",High
+18,Verify Umrah Package Creation from Home Page,Navigate to the Umrah operators' home and create a package. Verify the creation of the Umrah package from the home page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on button ' \u0627\u0644\u0633\u0627\u0628\u0642' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 3: Take full page screenshot as checkpoint",High
+17,Verify Permit Status on Nusuk Page,Navigate to the Nusuk page and view the permit status. Verify the permit status on the Nusuk page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Nusuk
+step 2: Click on link ' \u0627\u0644\u0645\u0639\u062a\u0645\u0631\u064a\u0646 \u0627\u0644\u0630\u064a\u0646 \u0644\u0645 \u064a\u0635\u062f\u0631 \u0644\u0647\u0645 \u062a\u0635\u0631\u064a\u062d' -> Navigate to page 'UmrahOperators/Nusuk/MutamersNotHavePermit'
+step 3: Take full page screenshot as checkpoint",High
+16,Verify Access to Filiale Hannover Page,Navigate to the Filiale Hannover page and access the details. Verify the access to the Filiale Hannover page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/filiale/hannover
+step 2: Click on button
+step 3: Take full page screenshot as checkpoint",High
+14,Verify Access to Home Page Data,Navigate to the view data page and access the home page. Verify the access to the home page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on link  -> Navigate to page '*'
+step 3: Take full page screenshot as checkpoint",High
+13,Verify Access to External Agencies Groups,Navigate to the groups page and access the actions menu. Verify the access to the groups page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on button 'kt aside mobile toggler'
+step 3: Click on link 'qa-menu-groups' -> Navigate to page 'ExternalAgencies/Groups'
+step 4: Take full page screenshot as checkpoint",High
+12,Verify Tafweej Readdgdstafweej Request Process,Navigate to the Tafweej add non-GDS tafweej request page. Submit the request and verify the Tafweej readdgdstafweej request process.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Tafweej/AddNonGdsTafweejRequest
+step 2: Click on span
+step 3: Click on input field  -> Navigate to page 'UmrahOperators/Tafweej/ReAddGdsTafweejRequest/*'
+step 4: Click on link ' \u0627\u0644\u0633\u0627\u0628\u0642' -> Navigate to page 'UmrahOperators/Tafweej'
+step 5: Take full page screenshot as checkpoint",High
+11,Verify Notification Details for Umrah Operators,"Navigate to the notification details page and view the notification type. Access the actions menu, view the mutamer, and verify the notification details.","step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on input field 'NotificationType'
+step 3: Click on button '\u0645\u0648\u0627\u0641\u0642' -> Navigate to page 'UmrahOperators/Notifications'
+step 4: Click on link 'qa-actions'
+step 5: Click on link 'qa-view-mutamer' -> Navigate to page 'UmrahOperators/Notifications/NotificationDetails/*'
+step 6: Take full page screenshot as checkpoint",High
+10,Verify Uomutamers Report Generation,Navigate to the Tafweej add non-GDS tafweej request page. Enter the required information and generate the Uomutamers report. Verify the generation of the Uomutamers report.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Tafweej/AddNonGdsTafweejRequest
+step 2: Enter input value in input field
+step 3: Click on span 'select2-DriverId-container'
+step 4: Click on input field
+step 5: Enter input value in input field
+step 6: Click on span 'select2-DriverId-container' -> Navigate to page 'UmrahOperators/Reports/UoMutamersReport'
+step 7: Take full page screenshot as checkpoint",High
+9,Verify Nusuk Process for Umrah Operators,Navigate to the Nusuk page and submit the permit. Verify the Nusuk process for Umrah operators.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Nusuk
+step 2: Click on button '\u0625\u063a\u0644\u0627\u0642'
+step 3: Click on link ' \u0625\u0635\u062f\u0627\u0631 \u062a\u0635\u0631\u064a\u062d \u0646\u0633\u0643' -> Navigate to page 'UmrahOperators/Nusuk/SubmitPermit'
+step 4: Click on span
+step 5: Click on input field
+step 6: Click on button '\u0625\u063a\u0644\u0627\u0642' -> Navigate to page 'UmrahOperators/Nusuk'
+step 7: Take full page screenshot as checkpoint",High
+22,Verify Submitted Groups in Umrah Operators Home,Navigate to the submitted groups page in the Umrah operators home. Click on two buttons and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Home/SubmittedGroups
+step 2: Click on button ' \u0627\u0644\u062a\u0635\u0641\u064a\u0629'
+step 3: Click on button ' \u0645\u0633\u062d \u0627\u0644\u062a\u0635\u0641\u064a\u0629'
+step 4: Take full page screenshot as checkpoint",High
+23,Verify Muatamer List Details in External Agencies Groups,Navigate to the muatamer list details page in the external agencies groups. Perform multiple clicks and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on link ' \u0627\u0644\u0633\u0627\u0628\u0642' -> Navigate to page 'ExternalAgencies/Groups'
+step 3: Click on span
+step 4: Click on td
+step 5: Click on link 'qa-actions'
+step 6: Click on link 'qa-submit-group'
+step 7: Take full page screenshot as checkpoint",High
+24,Verify Muatamer List Details in External Agencies Groups,Navigate to the muatamer list details page in the external agencies groups. Perform multiple clicks and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on link ' \u0627\u0644\u0633\u0627\u0628\u0642' -> Navigate to page 'ExternalAgencies/Groups'
+step 3: Click on link 'qa-actions'
+step 4: Click on link 'qa-edit-group' -> Navigate to page 'ExternalAgencies/Groups/GetMuatamerListDetails/*'
+step 5: Take full page screenshot as checkpoint",High
+25,Verify Passport Image in Umrah Operators Home,Navigate to the passport image page in the Umrah operators home. Perform multiple clicks and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on button '\u0646\u0639\u0645'
+step 3: Click on button '\u0645\u0648\u0627\u0641\u0642'
+step 4: Click on button 'review'
+step 5: Click on button '\u0646\u0639\u0645'
+step 6: Take full page screenshot as checkpoint",High
+26,Verify Create Package in Umrah Operators Home,Navigate to the create package page in the Umrah operators home. Perform multiple clicks and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Home/SubmittedGroups
+step 2: Click on td
+step 3: Click on link 'qa-actions'
+step 4: Click on link 'qa-create-package' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 5: Take full page screenshot as checkpoint",High
+27,Verify Create Package in Umrah Operators Home,Navigate to the create package page in the Umrah operators home. Perform multiple clicks and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa
+step 2: Click on input field 'None GDS CheckOut'
+step 3: Click on td
+step 4: Click on input field 'None GDS Hotel Attachment'
+step 5: Click on span
+step 6: Click on button '\u0627\u0644\u062e\u0637\u0648\u0629 \u0627\u0644\u062a\u0627\u0644\u064a\u0629'
+step 7: Click on input field 'None GDS Transportation BRN'
+step 8: Enter input value in input field 'None GDS Transportation BRN'
+step 9: Click on span 'select2-None GDS Transportation Company-container'
+step 10: Click on span
+step 11: Click on input field
+step 12: Enter input value in input field
+step 13: Enter input value in input field 'None GDS TransPurchasingPrice'
+step 14: Click on input field 'None GDS Transportation Date'
+step 15: Click on td
+step 16: Click on input field 'None GDS Trans Attachment' -> Navigate to page 'UmrahOperators/Home/SubmittedGroups'
+step 17: Click on button ' \u0645\u0633\u062d \u0627\u0644\u062a\u0635\u0641\u064a\u0629' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'
+step 18: Take full page screenshot as checkpoint",High
+28,Verify Submit Permit in Umrah Operators Nusuk,Navigate to the Nusuk page in the Umrah operators. Perform multiple actions and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Nusuk
+step 2: Click on div
+step 3: Click on span 'select2-nusukPermitType f-container' -> Navigate to page 'UmrahOperators/Nusuk/SubmitPermit'
+step 4: Enter input value in input field
+step 5: Click on button 'NEXT STEP'
+step 6: Click on input field
+step 7: Take full page screenshot as checkpoint",High
+29,Verify Submitted Groups in Umrah Operators Home,Navigate to the submitted groups page in the Umrah operators home. Perform multiple clicks and verify the page.,"step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/home/submittedgroups
+step 2: Click on span 'UoTabCount'
+step 3: Click on td
+step 4: Take full page screenshot as checkpoint",High
+30,Verify Create Group in External Agencies Groups,"Navigate to the create group page in the external agencies groups. Enter group name, select an option, and click a button to verify the page.","step 1: Navigate to https://bsp-nusuk.haj.gov.sa/ExternalAgencies/Groups/Index
+step 2: Click on link 'qa-create-group' -> Navigate to page 'ExternalAgencies/Groups/CreateGroup'
+step 3: Enter input value in input field 'GroupNameEn'
+step 4: Click on span 'select2-EmbassyId-container'
+step 5: Click on button 'qa-next' -> Navigate to page 'ExternalAgencies/Groups/EditMuatamerList/*'
+step 6: Take full page screenshot as checkpoint",High

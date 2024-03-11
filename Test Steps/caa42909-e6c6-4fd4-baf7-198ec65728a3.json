@@ -1,0 +1,22 @@
+{
+    "steps": [
+        "step 1: Navigate to https://bsp-nusuk.haj.gov.sa",
+        "step 2: Click on input field 'None GDS CheckOut'",
+        "step 3: Click on td",
+        "step 4: Click on input field 'None GDS Hotel Attachment'",
+        "step 5: Click on span",
+        "step 6: Click on button '\\u0627\\u0644\\u062e\\u0637\\u0648\\u0629 \\u0627\\u0644\\u062a\\u0627\\u0644\\u064a\\u0629'",
+        "step 7: Click on input field 'None GDS Transportation BRN'",
+        "step 8: Enter input value in input field 'None GDS Transportation BRN'",
+        "step 9: Click on span 'select2-None GDS Transportation Company-container'",
+        "step 10: Click on span",
+        "step 11: Click on input field",
+        "step 12: Enter input value in input field",
+        "step 13: Enter input value in input field 'None GDS TransPurchasingPrice'",
+        "step 14: Click on input field 'None GDS Transportation Date'",
+        "step 15: Click on td",
+        "step 16: Click on input field 'None GDS Trans Attachment' -> Navigate to page 'UmrahOperators/Home/SubmittedGroups'",
+        "step 17: Click on button ' \\u0645\\u0633\\u062d \\u0627\\u0644\\u062a\\u0635\\u0641\\u064a\\u0629' -> Navigate to page 'UmrahOperators/Home/CreatePackage/*'",
+        "step 18: Take full page screenshot as checkpoint"
+    ]
+}

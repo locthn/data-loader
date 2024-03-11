@@ -1,0 +1,10 @@
+{
+    "steps": [
+        "step 1: Navigate to https://bsp-nusuk.haj.gov.sa/filiale/hamburg",
+        "step 2: Click on div",
+        "step 3: Click on button",
+        "step 4: Click on link",
+        "step 5: Click on link  -> Navigate to page 'vinylboeden/art/klick-vinyl'",
+        "step 6: Take full page screenshot as checkpoint"
+    ]
+}

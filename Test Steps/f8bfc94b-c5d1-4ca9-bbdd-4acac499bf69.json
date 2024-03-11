@@ -1,0 +1,11 @@
+{
+    "steps": [
+        "step 1: Navigate to https://bsp-nusuk.haj.gov.sa/UmrahOperators/Nusuk",
+        "step 2: Click on div",
+        "step 3: Click on span 'select2-nusukPermitType f-container' -> Navigate to page 'UmrahOperators/Nusuk/SubmitPermit'",
+        "step 4: Enter input value in input field",
+        "step 5: Click on button 'NEXT STEP'",
+        "step 6: Click on input field",
+        "step 7: Take full page screenshot as checkpoint"
+    ]
+}
